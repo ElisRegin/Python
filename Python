@@ -1,0 +1,110 @@
+#soma
+print (2+2)
+
+#subtração
+print (5-3)
+
+#multiplicação
+print (5*3)
+
+#resto da divisão 
+print (5%3)
+
+#potenciação
+print (5**3)
+
+#divisão inteira
+print (5//3)
+
+#atribuir um valor numa variável 
+y = "Hello"
+
+x = y*10
+print (x)
+
+print(y[:-1]) #tudo menos a ultima letra
+print(y[0]) #somente  o primeiro caractere
+
+y = "Hello" .lower() #usado para padronizar letras minuscúlas                    .lower()
+y = "Hello" .upper() #usado para padronizar letras maiuscúlas                    .upper()
+y = "Hello" .split("l") #usado para demilitar texto                              .split()
+
+idade = 24
+nome = "Elis"
+print("A idade do {a} é: {b} anos".format(a=nome,b=idade)) 
+
+frase = "Olá meu nome é Elis e sou aluna"
+print(frase[0:3])
+
+
+
+
+
+#Atividades:
+
+#1. Dados um número inteiro qualquer, encontre o resto divisão desse número por 3:
+
+a = 25
+resultado = a%3
+print(a%3)
+
+#2. Calcular a área de um triângulo retângulo (dadas base e altura) BASE*ALTURA/2
+
+base = int(8)
+altura = int(12)
+resultado = (base * altura/2)
+print (resultado)
+
+ou
+
+base = int( input("Digite o valor da base: "))
+altura = int( input("Digite o valor da altura: "))
+resultado = ((base * altura)/2)
+print (resultado)
+
+#3. Ler nome, sexo, salário, telefone e endereço de uma pessoa nesta ordem, e informá-los na ordem inversa que foram lidos. 
+
+nome = "Elis"
+sexo = "Feminino" 
+salario = "10" 
+telefone = "46999999999"
+endereco = "Itacolomi"
+print("{} {} {} {} {}".format(endereco, telefone, salario, sexo, nome))
+
+#4. Dados 3 valores(A,B); Calcule e informe o valor de C = (A+B) * B
+
+a = 5
+b = 5
+C = print((a+b)*b)
+
+#5. Ler 3 valores númericos (A,B e H); Calcular e informar o dobro de A, o triplo de B e a soma destes resultados como H.
+
+a = int(2)
+b = int(3)
+x = (a+a) 
+y = (b+b+b)
+h = (x + y)
+resultado = h
+
+#6. Transformar para real uma determinada quantia em dolar, dada uma determinada taxa de câmbio (conversão)
+
+dolar = float(5.37)
+quantidade = int(50)
+real = int(1)
+taxa = float(1.5)
+resultado = ((dolar * real + taxa)* quantidade)
+print .format(resultado)
+
+
+#7. Dados 3 valores inteiros, calcular a média aritmética simples, aritmética ponderada considerando pesos como 2, 3 e 5
+
+a = 2
+b = 3
+c = 5
+print((a+b+c)/3)
+
+
+
+
+
+
